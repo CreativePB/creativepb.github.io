@@ -3,7 +3,7 @@
 	<head>
 		<!-- Startup configuration
 		<link rel="manifest" href="manifest.webmanifest"> -->
-		<title>OOPS LOST || Preetom Banerjee | Full-Stack Pro JavaScript Developer | UI/UX Designer</title>
+		<title>404 || Preetom Banerjee | Full-Stack Pro JavaScript Developer | UI/UX Designer</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]
@@ -13,98 +13,46 @@
         </style>-->
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
-    <link href="https://fonts.googleapis.com/css?family=Barrio|Pangolin" rel="stylesheet">
-		<style type="text/css">
-		body{
-		background-image:url("bg.png");
-		image-rendering: pixelated;
-		}
-
-			* {
-				margin: 0;
-				padding: 0;
-			}
-
-			body {
-				font-family: Calibri, sans-serif;
-			}
-
-			.background-wrap {
-				position: fixed;
-				z-index: -1000;
-				width: 100%;
-				height: 100%;
-				overflow: hidden;
-				top: 0;
-				left: 0;
-			}
-
-			#video-bg-elem {
-				position: absolute;
-				top: 0;
-				left: 0;
-				min-height: 100%;
-				min-width: 100%;
-			}
-
-
-			.content {
-				position: absolute;
-				width: 100%;
-				min-height: 100%;
-				z-index: 1000;
-				background-color: rgba(0,0,0,0.7);
-			}
-			.content h1 {
-				text-align: center;
-				font-size: 65px;
-				text-transform: uppercase;
-				font-weight: 300;
-				color: #fff;
-				padding-top: 15%;
-				margin-bottom: 10px;
-			}
-			.content p {
-				text-align: center;
-				font-size: 20px;
-				letter-spacing: 3px;
-				color: #aaa;
-			}
-			div.content>h1{
-				font-family: 'Barrio', cursive;
-				}
-			div.content>p{
-				font-family: 'Pangolin', cursive;
-				}
-			p.footer{
-				font-size: 1.2em;
-				position: absolute;
-				width: 100%;
-		    bottom: 0;
-				background-color:inherit;
-			}
-			.content>p>a{
-				text-decoration: none;
-				color: inherit;
-			}
-		</style>
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 		</head>
-	<body>
-		<div class="content">
-			<h1>It's 404</h1>
-			<p>Video Paused<p>
-			<p><a href="http://creativepb.com">ClICK HERE TO TRY AGAIN</a><p>
-			<p class="footer">contact@creativepb.com </p>
-		</div>
+	<body class="is-loading">
+	<!-- Wrapper -->
+			<div id="wrapper">
 
+				<!-- Main -->
+					<section id="main">
+						<header>
+							<span class="avatar"><img width="140px" src="images/avatar.jpg" alt="" /></span>
+							<h1>Oh! 4O4</h1>
+							<p>Broken URL</p>
+						</header>
+						<hr />
+						<footer>
+							<ul class="icons">
+								<li><a  href="http://www.creativepb.com" class="fa-home">Home</a></li>
+							</ul>
+						</footer>
+					</section>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<ul class="copyright">
+							<li>&copy; 2017</li><li> Creativepb.com</a></li>
+						</ul>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<!--[if lte IE 8]><script src="assets/js/respond.min.js"></script><![endif]-->
+			<script>
+				if ('addEventListener' in window) {
+					window.addEventListener('load', function() { document.body.className = document.body.className.replace(/\bis-loading\b/, ''); });
+					document.body.className += (navigator.userAgent.match(/(MSIE|rv:11\.0)/) ? ' is-ie' : '');
+				}
+			</script>
 	
-		<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]
-		<script>
-			window.onload = function() { document.body.className = ''; };
-			window.ontouchmove = function() { return false; };
-			window.onorientationchange = function() { document.body.scrollTop = 0; }
-		</script>-->
-        <script src="https://code.createjs.com/preloadjs-0.6.2.min.js"></script>
 		<script>
             (function() {
                 var preload = new createjs.LoadQueue();

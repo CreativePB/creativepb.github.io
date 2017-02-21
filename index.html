@@ -13,130 +13,48 @@
         </style>-->
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
-    <link href="https://fonts.googleapis.com/css?family=Barrio|Pangolin" rel="stylesheet">
-		<style type="text/css">
-		body{
-		background-image:url("bg.png");
-		image-rendering: pixelated;
-		}
-
-			* {
-				margin: 0;
-				padding: 0;
-			}
-
-			body {
-				font-family: Calibri, sans-serif;
-			}
-
-			.background-wrap {
-				position: fixed;
-				z-index: -1000;
-				width: 100%;
-				height: 100%;
-				overflow: hidden;
-				top: 0;
-				left: 0;
-			}
-
-			#video-bg-elem {
-				position: absolute;
-				top: 0;
-				left: 0;
-				min-height: 100%;
-				min-width: 100%;
-			}
-
-
-			.content {
-				position: absolute;
-				width: 100%;
-				min-height: 100%;
-				z-index: 1000;
-				background-color: rgba(0,0,0,0.7);
-			}
-			.content h1 {
-				text-align: center;
-				font-size: 65px;
-				text-transform: uppercase;
-				font-weight: 300;
-				color: #fff;
-				padding-top: 15%;
-				margin-bottom: 10px;
-			}
-			.content p {
-				text-align: center;
-				font-size: 20px;
-				letter-spacing: 3px;
-				color: #aaa;
-			}
-			div.content>h1{
-				font-family: 'Barrio', cursive;
-				}
-			div.content>p{
-				font-family: 'Pangolin', cursive;
-				}
-			p.footer{
-				font-size: 1.2em;
-				position: absolute;
-				width: 100%;
-		    bottom: 0;
-				background-color:inherit;
-			}
-		</style>
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 		</head>
-	<body>
-	<div class="background-wrap">
-			<video id="video-bg-elem" preload="auto" autoplay="autoplay" loop="loop" muted="muted">
-				<source src="video.mp4" type="video/mp4">
-				Video not supported
-			</video>
-		</div>
+	<body class="is-loading">
+	<!-- Wrapper -->
+			<div id="wrapper">
 
-
-		<div class="content">
-			<h1>Preetom Kr. Banerjee</h1>
-			<p><span>Full-Stack Developer</span> &nbsp;•&nbsp;<span>Pro JavaScript Developer</span> &nbsp;•&nbsp; <span>UI/UX Designer</span> &nbsp;•&nbsp; <span>Teacher</span> </p>
-			<p class="footer">contact@creativepb.com </p>
-		</div>
-
-	<!--<body class="loading">
-		<div id="wrapper">
-			<div id="bg"></div>
-			<div id="overlay"></div>
-			<div id="main">
-
-				 Header
-					<header id="header">
-						<h1>Preetom Kumar Banerjee</h1>
-						<p><span>Full-Stack Developer</span> &nbsp;•&nbsp;<span>JavaScript Lover</span> &nbsp;•&nbsp; <span>UI/UX Designer</span> &nbsp;•&nbsp; <span>Innovator</span> &nbsp;•&nbsp; <span>Teacher</span> </p>
-						<nav>
-							<ul>
-								<li><a href="//codepen.io/Creativepb/" class="icon fa-codepen"><span class="label">Codepen</span></a></li>
-								<li><a href="//www.behance.net/creativepb" class="icon fa-behance"><span class="label">Codepen</span></a></li>
-                                <li><a href="//jsfiddle.net/user/creativepb" class="icon fa-jsfiddle"><span class="label">JS Fiddle</span></a></li>
-                                <li><a href="//dribbble.com/creativepb" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
-                                <li><a href="//in.linkedin.com/in/creativepreetom" class="icon fa-linkedin"><span class="label">Linkedin</span></a></li>
-								<li><a href="//github.com/preetom" class="icon fa-github"><span class="label">Github</span></a></li>
-                             <li><a href="mailto:creative.preetom@gmail.com" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
+				<!-- Main -->
+					<section id="main">
+						<header>
+							<span class="avatar"><img width="140px" src="images/avatar.jpg" alt="" /></span>
+							<h1>Preetom Kr. Banerjee</h1>
+							<p>Full Stack Web Developer</p>
+						</header>
+						<hr />
+						<footer>
+							<ul class="icons">
+								<li><a target="_blank" href="https://github.com/preetom" class="fa-github">Github</a></li>
+								<li><a target="_blank" href="https://www.linkedin.com/in/creativepreetom" class="fa-linkedin">Linkedin</a></li>
+								<li><a href="mailto:me@creativepb.com" class="fa-envelope-o">Contact Us</a></li>
 							</ul>
-						</nav>
-					</header>-->
+						</footer>
+					</section>
 
-				<!-- Footer
+				<!-- Footer -->
 					<footer id="footer">
-						<span class="copyright">Developed Using &nbsp; <span class="icon fa-html5"> &nbsp; </span><span class="icon fa-css3"> &nbsp; </span> Copyright <span class="icon fa-copyright"></span>  2016 &nbsp;  <a href="assets/Preetom_Banerjee.pdf" class="tooltips">CreativePB <span class="icon fa-download"> Resume</span></a></span>
+						<ul class="copyright">
+							<li>&copy; 2017</li><li> Creativepb.com</a></li>
+						</ul>
 					</footer>
 
-		  </div>
-		</div>-->
-		<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]
-		<script>
-			window.onload = function() { document.body.className = ''; };
-			window.ontouchmove = function() { return false; };
-			window.onorientationchange = function() { document.body.scrollTop = 0; }
-		</script>-->
-        <script src="https://code.createjs.com/preloadjs-0.6.2.min.js"></script>
+			</div>
+
+		<!-- Scripts -->
+			<!--[if lte IE 8]><script src="assets/js/respond.min.js"></script><![endif]-->
+			<script>
+				if ('addEventListener' in window) {
+					window.addEventListener('load', function() { document.body.className = document.body.className.replace(/\bis-loading\b/, ''); });
+					document.body.className += (navigator.userAgent.match(/(MSIE|rv:11\.0)/) ? ' is-ie' : '');
+				}
+			</script>
+	
 		<script>
             (function() {
                 var preload = new createjs.LoadQueue();
